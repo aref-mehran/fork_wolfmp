@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "WolfMP",
+    "slug": "wolf-mp",
+    "platforms": ["android", "ios"],
+    "version": "0.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/wolf-icon.png",
+    "splash": {
+      "image": "./assets/wolf-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#33383d"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#33383d",
+      "barStyle": "light-content"
+    }
+  }
+}
